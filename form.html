@@ -4,83 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-body{
-font-weight: bold;
-font-size: 20px;
-
-}
-div
-{
-color: #a83232;
-
-}
-
-.sub
-{
-
-    margin-left: 0px;
-    width: 150px; 
-    height: 30px;
-
-}
-
-.res
-{
-
-    margin-left: 20px; 
-    width: 150px;
-     height: 30px;
-}
-
-    </style>
 </head>
-<body style="margin-left: 600px;" >
-    <h2 style="margin-left: 50px;">Novell Services Login</h2>
+<body>
     <form action="">
         <div>
-            <pre>Username:    <input required type="text">
-            </pre>
+            Name:
+        <input type="text">
         </div>
         <div>
-            <pre>Password:    <input type="password"> 
-            </pre>
+            Age:
+        <input type="number">
         </div>
         <div>
-            <pre>City of
-Employment:  <input type="text"></pre>
-        </div>
-        
-        <div>
-            <pre>
-Web server:  <select name="" id="">
-                    <option >--Choose a server--</option>
-                    <option value="">India</option>
-                    <option value="">Dubai</option>
-                    <option value="">USA</option>
-                    <option value="">UK</option>
-
-                </select>
-            </pre>
+            
+            Gender:
+            <input type="radio" name="Gender" id="Gender" value="Male">
+            Male
+            <input type="radio" name="Gender" id="Gender" value="Female">
+            Female
+            <input type="radio" name="Gender" id="Gender" value="Other">
+            Other
         </div>
         <div>
-            <pre>
-                 <input type="radio" name="role" id="role" value="Admin">Admin     
-Please specify   <input type="radio" name="role" id="role" value="Engineer">Engineer 
-your role:       <input type="radio" name="role" id="role" value="Manager">Manager 
-                 <input type="radio" name="role" id="role" value="Guest">Guest
-            </pre>
+            Age greater than 18
+            <input type="checkbox" name="" id="" checked>
         </div>
         <div>
-            <pre>      
-Single Sign-on   <input type="checkbox" value="Mail" >Mail  
-to the following:<input type="checkbox" value="Payroll">Payroll 
-                 <input type="checkbox" value="Self-service">Self-service     
-            </pre>
+            Subjects
+            <select name="" id="">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Maths">Maths</option>
+            </select>
         </div>
         <div>
-            <input class="sub"  type="submit" value="Login">
-            <input class="res"  type="reset" name="" id="">
+            <input type="submit" value="Submit">
+        </div>
+        <div>
+            <input type="reset" value="Reset">
         </div>
     </form>
 </body>

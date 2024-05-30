@@ -1,0 +1,29 @@
+body{
+    background-image: url(.//Screenshot\ 2024-05-25\ 135006.png);
+   
+    border-top-style:inset;
+    border-bottom-style: outset;
+    border-left-style: ridge;
+    border-right-style: groove;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-width: 5px;
+    border-color:aquamarine;
+    margin: 20px 25px 30px 35px;
+    padding:  0px 0px 0px 190px;
+   
+}
+div{
+    color: rgb(144, 244, 255);
+    
+  
+}
+.lo{
+  background-color:  #2596be;;
+  
+}
+.re{
+    background-color:  #2596be;
+}

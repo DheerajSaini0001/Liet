@@ -1,0 +1,95 @@
+
+.navi{
+    background-color:white;
+    height: 103.55px;
+width:100%;
+cursor: pointer;
+}
+.logo{
+    height: 51.55px;
+    width: 330px;
+    margin-top: 20px; 
+margin-left: 0px;
+}
+
+li,ul{
+    display: inline;
+    text-decoration: none;
+    
+}
+.home{
+    margin-left: 100px;
+}
+
+.contact{
+    margin-right: 65px
+}
+.login{
+    margin-left: 0px;
+}
+
+a{
+    margin-bottom: 26px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 75px ;
+    color: black;
+}
+
+.head
+{
+color: white;
+    background-color:#192F59;
+    font-size: 15px;
+}
+
+#cont
+{
+margin-left:550px;
+}
+
+#port
+{
+    margin-left: 20px;
+
+}
+.head{
+
+    font-size: 20px;
+}
+#fb
+{
+    margin-left: 20px;
+}
+#tw
+{
+    margin-left: 20px;
+}
+#ig
+{
+    margin-left: 20px;
+}
+
+#btn
+{
+width: 130px;
+height: 70px;
+background-color:#3DB166;
+color: white;
+font-weight: bolder;
+font-size: 15px;
+margin-left: 20px;
+
+}
+
+#mar
+{
+
+font-weight: bold;
+}
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
